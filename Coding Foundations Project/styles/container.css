@@ -69,7 +69,7 @@
     margin: 20px;
 }
 
-.right-half > .header > .highlight {
+.right-half > .header .highlight {
     color: cyan;
 }
 
