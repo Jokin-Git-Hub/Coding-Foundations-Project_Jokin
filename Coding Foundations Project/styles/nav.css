@@ -1,0 +1,102 @@
+/* Common nav styles */
+
+.navigation-wrapper {
+  height: 10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+/* Left column styles */
+
+.navigation-wrapper > .left-column {
+  width: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-wrapper > .left-column > .banner-image img {
+  width: 200px;
+  height: 100%;
+}
+
+/* Center column styles */
+
+.navigation-wrapper > .center-column {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1px;
+}
+
+.navigation-wrapper > .center-column > .tittle {
+  color: yellow;
+  font-size: 0.9em;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper, .drop-down {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .nav-link a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .drop-down a {
+  color: gray;
+}
+
+.navigation-wrapper > .center-column > .links-wrapper > .drop-down i {
+  color: gray;
+}
+
+/* Right column styles */
+
+.navigation-wrapper > .right-column {
+  width: 500px;
+  display: flex;
+  justify-content: right;
+  margin: 10px;
+  gap: 20px;
+} 
+
+.right-column .btn {
+  padding: 15px 25px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 5px;       
+  width: auto;
+  height: auto;
+  background-color:rgb(44, 48, 65);
+  color: white;
+  font-weight: 700;
+}
+.right-column .create-btn i {
+  color: rgb(80, 194, 80);
+}
+
+.right-column .search-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-size: 25px;      
+  color: gray
+}
+
+.right-column .btn i {
+  font-size: 16px;
+}
